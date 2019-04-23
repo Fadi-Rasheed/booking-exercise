@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Desktop Default</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="app.css">
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/latest/jquery.min.js"></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
+    </head>
+    <body>
+        <header>
+            <div id="logo">
+                <img id="logo-img" src="https://s-ec.bstatic.com/static/img/b26logo/booking_logo_retina/22615963add19ac6b6d715a97c8d477e8b95b7ea.png" alt="Booking.com">
+            </div>
+            <a href="#" class="icon">€</a>
+            <img class="icon" src="https://t-ec.bstatic.com/static/img/flags/24/gb/b2f01d4fd94cb1420fcdbbef62c06ade1026fbbd.png" alt="English (UK)">
+            <p id="refer">Refer freinds and earn</p>
+            <div class="profile">
+                <div id="pic-div"> <div id="profile-pic"></div> </div>
+                <h3>Fadi Rasheed</h3>
+                <div class="profile-list">
+                    <ul id='profile-list'>
+                        <li>Dashboard</li>
+                        <li>Bookings</li>
+                        <li>Your Genius Rewards</li>
+                        <li>Reviews</li>
+                        <li>Travel guides</li>
+                        <li>My lists</li>
+                        <li>Refer friends and earn</li>
+                        <li>List your property</li>
+                        <li>Customer services help</li>
+                        <li>Settings</li>
+                        <li>Sign out</li>
+                    </ul>
+                </div>
+            </div>
+                
+        </header>
+        <div id="content">
+            <ul id='services'> 
+                <li><a href="main.html">Accommodation</a></li>
+                <li><a href="">Flights</a></li>
+                <li><a href="">Car rentals</a></li>
+            </ul>
+            <form action="" method="POST" autocomplete="off">
+                <div id="form-bar">
+                    <input type="search" placeholder="From where?" class="form-element" id="search-input">
+                    <div class="auto-complete">
+                            <ul id='auto-complete'></ul>
+                    </div>
+                    <input type="search" placeholder="To where?" class="form-element" >
+                    <div class="auto-complete">
+                            <ul id='auto-complete'></ul>
+                    </div>
+                    <input class="form-element" type="text" name="daterange" value="01/01/2018 - 01/15/2018" />
+                    <div class="form-element" id="guests-element">
+                        <p>
+                            <span>2 </span>
+                            <span>travellers </span>
+                        </p>
+                        <div class="rooms-guests">
+                            <div class="select">
+                                <p>Adults</p>
+                                <select name="adults" id="adults">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                </select>
+                            </div>
+                            <div class="select">
+                                <p>Children</p>
+                                <select name="children" id="children">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div> 
+                        <button id="search-button" class="form-element" type="submit">Search</button>
+                    </div>
+                </div>
+                
+                <label id="form-checkbox"><input type="checkbox"> I'm travelling for work</label>
+            </form>
+        </div>
+        <footer>
+            <div id="footer-links">
+                <a href="#">Customer Service Help</a>
+                <a href="#">Terms & Conditions</a>
+                <a href="#">Privacy & Cookies</a>
+                <a href="#">Contact us</a>
+            </div>
+            <div id="footer-p">
+                <p>Copyright © 1996–2019 Booking.com™. All rights reserved.</p>
+            </div>
+        </footer>
+        <script src="app.js"></script>
+    </body>
+</html>
