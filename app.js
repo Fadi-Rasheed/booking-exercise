@@ -1,3 +1,4 @@
+// This is test 2 rebased on test 1
 const searchInput = document.querySelector('#search-input');
 const autoCompleteList = document.querySelector('#auto-complete');
 const autoCompleteDiv = document.querySelector('.auto-complete');
